@@ -1,0 +1,27 @@
+div, header, main, article, a{
+    border: black 1px solid;
+    margin: 25px;
+}
+div{
+    height: 100px;
+    width: 900px;
+    margin: auto;
+}
+.button{
+    background-color: #4CAF50; /* grønn */
+    color:black;
+    padding: 25px 35px;
+    text-align: center;
+    font-size: 1.5em;
+    height: 25px;
+    width: 200px;
+    margin: auto;
+
+}
+#knapp{
+    display: flex;
+    text-align: center;
+}
+#bilde{
+
+}

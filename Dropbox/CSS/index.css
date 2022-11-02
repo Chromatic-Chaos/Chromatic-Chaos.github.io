@@ -1,0 +1,36 @@
+div, header, main, article, a{
+    border: black 1px solid;
+    margin: 25px;
+}
+div{
+    height: 100px;
+    width: 900px;
+    margin: auto;
+}
+.button{
+    background-color: rgb(79, 108, 248);
+    color:black;
+    padding: 5px 1px 5px 1px;
+    text-align: center;
+    font-size: 1.5em;
+    height: auto;
+    width: 200px;
+    margin: auto;
+
+}
+#knapp{
+    margin: auto;
+    height: auto;
+    width: 200px;
+    display: flex;
+    text-align: center;
+}
+header li{
+    display: inline;
+}
+article{
+    background-color: #191919;
+}
+#tekst, #overskrift{
+    color: white;
+}

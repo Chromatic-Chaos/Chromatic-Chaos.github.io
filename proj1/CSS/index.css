@@ -1,6 +1,6 @@
-div, header, main, article, a{
+header, main{
     border: black 1px solid;
-    margin: 25px;
+    margin: 1%;
 }
 
 div{
@@ -17,6 +17,7 @@ div{
     height: auto;
     width: 200px;
     margin: auto;
+    border: none;
     text-decoration: none;
 
 }
@@ -33,6 +34,7 @@ header li{
 }
 article{
     background-color: #191919;
+
 }
 #tekst{
     color: white;
@@ -48,6 +50,7 @@ header{
 }
 #bilde{
     color: white;
+    text-align: center;
 }
 .valg{
     border: none;

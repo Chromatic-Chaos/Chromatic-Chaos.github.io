@@ -34,7 +34,7 @@ header li{
 }
 article{
     background-color: #191919;
-    height: 100%3;
+    height: 5%;
 }
 #tekst{
     color: white;
@@ -46,7 +46,7 @@ article{
     text-align: center;
 }
 main{
-    height: 100%;
+    height: 900em;
 }
 #bilde{
     color: white;

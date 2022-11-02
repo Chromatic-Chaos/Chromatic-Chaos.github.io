@@ -8,20 +8,29 @@ div{
     margin: auto;
 }
 .button{
-    background-color: #4CAF50; /* grønn */
+    background-color: rgb(79, 108, 248);
     color:black;
-    padding: 25px 35px;
+    padding: 5px 1px 5px 1px;
     text-align: center;
     font-size: 1.5em;
-    height: 25px;
+    height: auto;
     width: 200px;
     margin: auto;
 
 }
 #knapp{
+    margin: auto;
+    height: auto;
+    width: 200px;
     display: flex;
     text-align: center;
 }
-#bilde{
-
+header li{
+    display: inline;
+}
+article{
+    background-color: #191919;
+}
+#tekst, #overskrift{
+    color: white;
 }

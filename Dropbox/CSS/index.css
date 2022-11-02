@@ -34,7 +34,7 @@ header li{
 }
 article{
     background-color: #191919;
-
+    height: 100%3;
 }
 #tekst{
     color: white;
@@ -45,12 +45,12 @@ article{
     font-size: 3em;
     text-align: center;
 }
-header{
-    
+main{
+    height: 100%;
 }
 #bilde{
     color: white;
-    text-align: center;
+    width: 25%;
 }
 .valg{
     border: none;

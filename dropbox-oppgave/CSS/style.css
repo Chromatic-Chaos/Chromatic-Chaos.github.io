@@ -1,0 +1,58 @@
+header, main{
+    border: black 1px solid;
+    margin: 1%;
+}
+
+div{
+    height: 100px;
+    width: 900px;
+    margin: auto;
+}
+.button{
+    background-color: rgb(79, 108, 248);
+    color:black;
+    padding: 1em 0em 1em 0em;
+    text-align: center;
+    font-size: 1.5em;
+    height: auto;
+    width: 200px;
+    margin: auto;
+    border: none;
+    text-decoration: none;
+
+}
+#knapp{
+    margin: auto;
+    height: auto;
+    width: 200px;
+    display: flex;
+    text-align: center;
+}
+header li{
+    display: inline;
+    border: none;
+}
+article{
+    background-color: #191919;
+    height: 5%;
+}
+#tekst{
+    color: white;
+    text-align: center;
+}
+#overskrift{
+    color: white;
+    font-size: 3em;
+    text-align: center;
+}
+main{
+    height: 900em;
+}
+#bilde{
+    color: white;
+    width: 25%;
+}
+.valg{
+    border: none;
+    text-decoration: none;
+}

@@ -1,1 +1,91 @@
+header, div, article, footer{
+    border:solid black 1px;
+    margin: 5px;
+}
+head, body{
+    margin: 0;
+}
+#hovedboks{
+    height: 10vh;
+    width: 100vw;
+}
 
+#logo{
+	font-size: 3rem;
+	margin-top: 0.3rem;
+	margin-right: 0;
+	margin-bottom: 0.3rem;
+	margin-left: 1rem;
+}
+@media screen and (max-width: 768px) {
+	#nav{
+		display: none;
+	}
+}
+
+/*for desktop*/
+@media screen and (min-width: 768px) {
+	#nav{
+		display: visible;
+		display: flex;
+		justify-content: flex-end;
+		width: 100%;
+		gap: 0.5rem;
+	}
+}
+
+.nav_elementer{
+	display:flex;	
+	flex-direction: row;
+    align-items: center;
+	justify-content: center;
+}
+
+#burger{
+	font-size: 4rem;
+	font-weight: bold;
+	margin: 1rem;
+}
+
+#innhold{
+	display:flex;	
+	flex-direction: column;
+    align-items: center;
+	justify-content: center;
+	gap: 0.5rem;
+}
+
+
+/*for mobil*/
+@media screen and (max-width: 768px) {
+	.innholdsrad{
+		display:flex;
+		/*vis elementene i kolonne*/
+		flex-direction: column;
+		gap: 0.5rem;
+	}
+}
+
+/*for desktop*/
+@media screen and (min-width: 768px) {
+	.innholdsrad{
+		display:flex;	
+		/*vis elementene i rad*/
+		flex-direction: row;
+		gap: 0.5rem;
+	}
+}
+
+.innholdselement{	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 20rem;
+	height: 10rem;
+	background-color: white;
+}
+
+#footer{
+	display: flex;
+	justify-content: center;
+}

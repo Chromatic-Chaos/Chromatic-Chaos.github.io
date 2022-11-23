@@ -2,12 +2,30 @@ header, div, article, footer{
     border:solid black 1px;
     margin: 5px;
 }
+
 head, body{
     margin: 0;
 }
+
 #hovedboks{
     height: 10vh;
     width: 100vw;
+}
+
+header{
+	display: flex;
+}
+
+#topp_left{
+	display: flex;
+	width:100%;
+	justify-content: left;
+}
+
+#topp_right{
+	display: flex;
+	width:100%;
+	justify-content: right;
 }
 
 #logo{
@@ -17,6 +35,8 @@ head, body{
 	margin-bottom: 0.3rem;
 	margin-left: 1rem;
 }
+
+/*for mobil*/
 @media screen and (max-width: 768px) {
 	#nav{
 		display: none;
@@ -32,19 +52,6 @@ head, body{
 		width: 100%;
 		gap: 0.5rem;
 	}
-}
-
-.nav_elementer{
-	display:flex;	
-	flex-direction: row;
-    align-items: center;
-	justify-content: center;
-}
-
-#burger{
-	font-size: 4rem;
-	font-weight: bold;
-	margin: 1rem;
 }
 
 #innhold{
@@ -76,7 +83,7 @@ head, body{
 	}
 }
 
-.innholdselement{	
+.knapp{	
 	display: flex;
 	justify-content: center;
 	align-items: center;

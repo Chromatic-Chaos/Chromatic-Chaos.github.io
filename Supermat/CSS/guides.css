@@ -1,15 +1,10 @@
 /*mobil først eksempel*/
 
-/*rammer for å vise divbokser*/
-div {
-	border: solid black 1px;
-	margin: 5px;
-}
 
 /* farger for å femheve de forskjellige boksene*/
 header{background-color: #121212;}
 #logo{background-color: deepskyblue;}
 #innhold{background-color: #121212;}
 .knapp{background-color: deepskyblue;}
-footer{background-color: #121212;}
+footer{background-color: #212121; color: white;}
 /* slutt farger*/

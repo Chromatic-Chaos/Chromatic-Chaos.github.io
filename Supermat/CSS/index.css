@@ -1,19 +1,22 @@
 header, div, article, footer{
-    border:solid black 1px;
-    margin: 5px;
+ border: solid black 1px;
 }
 
-head, body{
-    margin: 0;
-}
+
 
 #hovedboks{
     height: 10vh;
     width: 100vw;
+	left: 0;
 }
 
 header{
 	display: flex;
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 5rem;
 }
 
 #topp_left{
@@ -35,6 +38,25 @@ header{
 	margin-bottom: 0.3rem;
 	margin-left: 1rem;
 }
+
+footer{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 14%;
+	text-align: center;
+	display: flex;
+}
+
+article{
+	left: 0;
+	width: 100%;
+}
+#fill{
+	padding: 2.2rem;
+}
+
 
 /*for mobil*/
 @media screen and (max-width: 768px) {

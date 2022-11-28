@@ -1,20 +1,11 @@
-header, div, article, footer{
+/*header, div, article, footer{
  border: solid black 1px;
+}*/
+
+body{
+	margin: 0;
+	padding: 0;
 }
-
-
-
-#hovedboks{
-    height: 10vh;
-    width: 100vw;
-	left: 0;
-}
-
-div{
-	left: 0;
-	right: 1rem;
-}
-
 header{
 	display: flex;
 	position: fixed;
@@ -43,25 +34,36 @@ header{
 	margin-bottom: 0.3rem;
 	margin-left: 1rem;
 }
-
-footer{
-	position: fixed;
-	left: 0;
-	bottom: 0;
-	width: 100%;
-	height: 14%;
-	text-align: center;
-	display: flex;
+a{
+	text-decoration: none;
 }
-
 article{
 	left: 0;
 	width: 100%;
 }
 #fill{
-	padding: 2.2rem;
+	padding: 2.5rem;
 }
-
+#innhold{
+	display: flex;	
+}
+.knapp{	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 20rem;
+	height: 10rem;
+	background-color: white;
+}
+#footer{
+	display: flex;
+	justify-content: center;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 14rem;
+	position: absolute;
+}
 
 /*for mobil*/
 @media screen and (max-width: 768px) {
@@ -108,18 +110,4 @@ article{
 		flex-direction: row;
 		gap: 0.5rem;
 	}
-}
-
-.knapp{	
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	width: 20rem;
-	height: 10rem;
-	background-color: white;
-}
-
-#footer{
-	display: flex;
-	justify-content: center;
 }

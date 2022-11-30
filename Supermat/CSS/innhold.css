@@ -1,4 +1,7 @@
-/*mobil først eksempel*/
+div, header, footer, article{
+    border: solid black 1px;
+}
+
 head, body {
 	margin: 0;
 }
@@ -37,6 +40,7 @@ head, body {
 	#nav{
 		display: none;
 	}
+
 }
 
 /*for desktop*/
@@ -47,7 +51,6 @@ head, body {
 		justify-content: flex-end;
 		width: 100%;
 		gap: 0.5rem;
-		
 	}
 }
 
@@ -62,47 +65,4 @@ head, body {
 	font-size: 4rem;
 	font-weight: bold;
 	margin: 1rem;
-}
-
-#innhold{
-	display:flex;	
-	flex-direction: column;
-    align-items: center;
-	justify-content: center;
-	gap: 0.5rem;
-}
-
-
-/*for mobil*/
-@media screen and (max-width: 768px) {
-	.innholdsrad{
-		display:flex;
-		/*vis elementene i kolonne*/
-		flex-direction: column;
-		gap: 0.5rem;
-	}
-}
-
-/*for desktop*/
-@media screen and (min-width: 768px) {
-	.innholdsrad{
-		display:flex;	
-		/*vis elementene i rad*/
-		flex-direction: row;
-		gap: 0.5rem;
-	}
-}
-
-.innholdselement{	
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	width: 20rem;
-	height: 10rem;
-	background-color: white;
-}
-
-#footer{
-	display: flex;
-	justify-content: center;
 }

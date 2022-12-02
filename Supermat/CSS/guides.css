@@ -1,3 +1,10 @@
+/*div, header, footer, article{
+    border: solid black 1px;
+}*/
+head, body {
+	margin: 0;
+	padding: 0;
+}
 div, header, article, a{
     text-decoration: none;
 }
@@ -8,7 +15,16 @@ div, header, article, a{
     position: relative;
     display: inline-block;
 }
-  
+.article{
+    text-align: center;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    font-size: 1.5rem;
+    left: 0;
+	width: 100%;
+}
 .dropdown-content {
     display: none;
     position: absolute;
@@ -18,7 +34,13 @@ div, header, article, a{
     padding: 12px 16px;
     z-index: 1;
 }
-  
+#hjem{
+    display: flex;
+    flex-wrap: wrap;
+}
+img{
+	height: 4.3rem;
+}
 .dropdown:hover .dropdown-content {
     display: block;
 }
@@ -27,17 +49,89 @@ div, header, article, a{
 	font-weight: bold;
 	margin: 0.25rem;
 }
+#navn{
+    color: white;
+    font-size: 2rem;
+    margin-top: 1.25rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
 footer{
     display: flex;
     flex-direction: row;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    justify-content: space-between;
+    min-height: 25vh;
 }
 .footer-content{
     margin: 3rem;
 }
+.fillin{
+	padding: 1.5rem;
+}
+#fill{
+	padding: 2.5rem;
+}
+#topp_left{
+	display: flex;
+	width:100%;
+    flex-direction: row;
+}
 header{background-color: #212121;}
-#logo{background-color: deepskyblue;}
 #innhold{background-color: #121212;}
 .knapp{background-color: deepskyblue;}
 footer{background-color: #212121; color: white;}
 .dropdown-content {background-color: skyblue;}
 /* slutt farger*/
+header{
+	display: flex;
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 5rem;
+}
+/*for mobil*/
+@media screen and (max-width: 768px) {
+	#nav{
+		display: none;
+	}
+}
+/*for desktop*/
+@media screen and (min-width: 768px) {
+	#nav{
+		display: visible;
+		display: flex;
+		justify-content: flex-end;
+		width: 100%;
+		gap: 0.5rem;
+	}
+}
+#innhold{
+	display:flex;	
+	flex-direction: column;
+    align-items: center;
+	justify-content: center;
+	gap: 0.5rem;
+}
+/*for mobil*/
+@media screen and (max-width: 768px) {
+	.innholdsrad{
+		display:flex;
+		/*vis elementene i kolonne*/
+		flex-direction: column;
+		gap: 0.5rem;
+	}
+}
+
+/*for desktop*/
+@media screen and (min-width: 768px) {
+	.innholdsrad{
+		display:flex;	
+		/*vis elementene i rad*/
+		flex-direction: row;
+		gap: 0.5rem;
+	}
+}

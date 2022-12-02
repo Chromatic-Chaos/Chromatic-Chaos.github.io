@@ -29,7 +29,6 @@ header{
 }
 
 #logo{
-	font-size: 3rem;
 	margin-top: 0.3rem;
 	margin-right: 0;
 	margin-bottom: 0.3rem;
@@ -64,12 +63,12 @@ footer{
 	left: 0;
 	bottom: 0;
 	width: 100%;
-	display: flex;
 	justify-content: space-between;
 	min-height: 25vh;
-	flex-direction: column;
 }
-
+.fillin{
+	padding: 1.5rem;
+}
 /*for mobil*/
 @media screen and (max-width: 768px) {
 	#nav{

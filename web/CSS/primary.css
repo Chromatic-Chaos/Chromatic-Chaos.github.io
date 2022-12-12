@@ -1,0 +1,15 @@
+body{
+    color: white;
+    background-image:url(http://1.bp.blogspot.com/-_mo9pJcGAgk/VlIQxla2KDI/AAAAAAAARG8/qoHkSXG_I9k/s1600/269%2BLighthouse%2B1.jpg)
+
+
+    
+}
+div {border: 2px solid red; 
+}
+#listeboks{
+    background-color: #cc33ff;
+    fill-opacity: 40%;
+    width: 400px;
+    margin:auto;
+}

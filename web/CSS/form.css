@@ -1,0 +1,29 @@
+input{
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-weight: bold;
+    
+}
+input:focus{
+    background-color: lightblue;
+    border: 3px solid grey; 
+}
+#submit{
+    width: 125px;
+    height: 50px;
+    font-weight: bold;
+    font-size: 20px;
+}
+form{
+    margin-left: 10px;
+}
+h1{
+    margin-left: 10px;}
+article{
+    border: none;
+    background-color: lightgray;
+    border-radius: 5px;
+    font-weight: bold;
+}

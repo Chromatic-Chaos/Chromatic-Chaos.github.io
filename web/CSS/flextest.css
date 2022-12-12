@@ -1,0 +1,13 @@
+div, main, header, nav, article, footer{    
+    border: solid 1px black;
+    padding: 10px;
+}
+
+article img{
+    max-width: 200px;
+}
+
+.innholdsboks{
+    display: flex;
+    flex-wrap: wrap;
+}

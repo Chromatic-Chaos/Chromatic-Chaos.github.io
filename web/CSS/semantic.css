@@ -1,0 +1,20 @@
+div, header, nav, article, footer{
+    
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.page-header{
+    height:k;
+}
+.page-nav{
+    border-radius: 5px;
+}
+.page-article{
+    margin: auto;
+}
+.page-footer{
+    margin: 0px;
+    background-color: #000000;
+    color:#ffffff;
+}

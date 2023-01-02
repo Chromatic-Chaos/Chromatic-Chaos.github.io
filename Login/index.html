@@ -1,23 +1,28 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="no">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="CSS/form.css">
-    <title>Login</title>
+    <title>Login med javascript</title>
 </head>
 <body>
-    <article>
-    <h1>Log in</h1>
-        <form action="#" method="post">
-            <label for="bruknavn">Bruknavn:</label><br>
-            <input type="text" id="bruknavn"><br><!--bruknavn-->
-            <label for="passord">Passord:</label><br>
-            <input type="password" id="passord"><br>
-            <input type="submit" id="submit"><!--submit knapp-->
-        </form>
-    </article>
-    <script></script>
+    <h1>Login med javascript</h1>
+    <!-- skjema for å hente inn brukernavn og passord som kaller funksjon javascript-filen ved submit-->
+    <form action="javascript:variablerFraForm()">
+        
+        <label for="brukernavn">Brukernavn:</label>
+        <input type="text" id="brukernavn">
+        <label for="Passord">Passord</label>
+        <input type="password" id="passord">
+        <input type="submit" value="Login">
+    </form>
+
+    <!-- avsnitt for innhold/output fra scriptet -->
+    <p id="output"></p>
+
+    <!-- vi laster scriptet i slutten av siden for at det ikke skal forsinke opptegningen/innlastingen av siden-->
+    <script src="js/mittscript.js"> </script>
 </body>
 </html>

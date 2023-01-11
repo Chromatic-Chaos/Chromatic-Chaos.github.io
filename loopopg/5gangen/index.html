@@ -7,15 +7,19 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="javascript:variebelforganging()">
-        <label for="tall">Skriv inn et tall, for å gange det med 5:</label><br>
-            <input type="tall" id="tall"><br><!--variabel-->
-        <input type="button" onClick="gangmed()" Value="gange" />
+    <div id="kalkulator">
+    <form>
+        1. tall: <input type="text" id="tall1" /><br>
+        2. tall: <input type="text" id="tall2" /><br>
+        <input type="button" onClick="gangmed()" Value="multiplikasjon" />
+        <input type="button" onClick="delmed()" Value="divisjon" />
+        <input type="button" onClick="plus()" Value="addisjon" />
+        <input type="button" onClick="minus()" Value="subtraksjon" />
     </form>
-    <p>The Result is : <br>
+    <p>Resultatet er : <br>
         <span id = "resultat"></span>
         </p>
-
+    </div>
     <script src="js/script.js"> </script>
 </body>
 </html>

@@ -1,9 +1,4 @@
-const aNum=5
-
-function addNumbers(someNumber){
-    return someNumber + aNum
+function legTilTall(tall1, tall2){
+    return tall1 + tall2
 }
-
-const someNumber= 10
-
-console.log(addNumbers(someNumber))
+console.log(legTilTall(3, 12));

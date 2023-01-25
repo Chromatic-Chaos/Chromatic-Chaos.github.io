@@ -1,0 +1,33 @@
+{
+"bedriftsinformasjon": {
+    "Bedriftsnavn": "Gokkeligo iskremsjappe",
+    "VeiAdresse": "Gokkveien",
+    "VeiNummer": 123,
+    "Kommune": "Gokk kommune",
+    "Fylke": "Hutaheiti fylke",
+    "Daglig leder": "Grekor Gokkesen",
+    "Eier": "Onkel Skrue"
+
+},
+"Varedetaljer": {
+    "iskermsmaker":[
+        "vanilje",
+        "sjokolade",
+        "jordbær",
+        "pistasj",
+        "mint",
+        "bringebær",
+        "cookiedough",
+        "karamell",
+        "blåbær",
+        "kaffe",
+        "coca-cola",
+        "oreo",
+        "sitron",
+        "marmelade",
+        "mango",
+        "krokan",
+        ""
+    ]
+}
+}

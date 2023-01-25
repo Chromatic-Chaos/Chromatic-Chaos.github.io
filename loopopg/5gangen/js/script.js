@@ -19,7 +19,7 @@ function plus(){
     sum = tal1 + tal2;
     document.write("Resultatet er:"+ sum);
 }
-function plus(){
+function minus(){
     tal1=
     document.getElementById("tall1").value;        
     tal2=

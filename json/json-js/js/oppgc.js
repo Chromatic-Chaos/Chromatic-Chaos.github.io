@@ -7,4 +7,4 @@ const jsonTeacher ={
         { "engelsk": "Walter Johnsen " }
     ]
 };
-console.log(jsonTeachers);
+console.log(jsonTeacher);
